@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phase 4 Chat App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🚀 Real-Time Chat App</h1>
+    </header>
+    <main>
+      <div id="chat-container">
+        <ul id="messages"></ul>
+      </div>
+      <form id="chat-form">
+        <input id="message" autocomplete="off" placeholder="Type your message..." />
+        <button>Send</button>
+      </form>
+    </main>
+  </div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
